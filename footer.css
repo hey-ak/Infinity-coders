@@ -1,0 +1,80 @@
+*{
+    /* margin: 0px;
+    padding: 0px; */
+    box-sizing: border-box;
+}
+
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    background-color: black;
+    padding: 75px 14%;
+    /* margin-top: 50px; */
+}
+
+.col2{
+    flex-grow: 2;
+}
+
+
+.footer-container div h3{
+    color: white;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+
+.footer-container .col3 p{
+    color: white;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+
+.footer-container .col1 a{
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-family:  Pro Display,SF Pro Icons,AOS Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 13.5px;
+}
+
+.col2 input{
+    width: 400px;
+    text-align: center;
+    outline: none;
+    height: 45px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: none;
+}
+
+
+.col2 button{
+    background: transparent;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    font-size: 15px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.social-icon{
+    margin-top: 20px;
+}
+
+.social-icon i{
+    margin-left: 10px;
+    cursor: pointer;
+}

@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #5c469c;
+  background-color: #917fb3;
 }
 body {
   overflow-y: scroll;
@@ -176,8 +176,8 @@ span {
   flex-direction: column;
   align-items: center;
   margin-top: 10rem;
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 .course-buttons {
   padding: 1rem;
@@ -257,4 +257,11 @@ p {
 
 main {
   z-index: 10;
+}
+.home-image {
+  position: absolute;
+  right: 4px;
+  height: 350px;
+  bottom: 0px;
+  /* left: 50%; */
 }

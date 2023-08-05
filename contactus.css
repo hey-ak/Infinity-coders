@@ -14,12 +14,11 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #5c469c;
+  background-color: #917fb3;
 }
 .background-img {
-  opacity: 0.2;
-  background-image: url("./undraw_programming_re_kg9v.svg");
-  position: fixed;
+  background-image: url("./contactimg.svg");
+  position: absolute;
   height: 100%;
   width: 100%;
   z-index: 1;
@@ -35,7 +34,9 @@ main {
 }
 .row {
   display: flex;
-  gap: 20px;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
 }
 .card {
   background: rgba(255, 255, 255, 0.3);
@@ -267,7 +268,7 @@ h2 {
   flex-direction: column;
   /* margin-top: 2rem; */
   align-items: end;
-  gap: 4rem;
+  gap: 2rem;
 }
 
 .contact-form {
@@ -319,12 +320,22 @@ input[type="submit"] {
 .form-input textarea:active {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.team {
-  margin-bottom: 2rem;
-}
+
 input::placeholder {
   color: rgba(240, 248, 255, 0.747);
 }
 label {
   color: #f3f3f5f6;
+}
+.form-container {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.team-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }

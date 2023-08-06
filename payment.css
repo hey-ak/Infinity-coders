@@ -40,6 +40,7 @@ h3 {
 }
 
 form input[type="text"] {
+outline-color: white;
   border: none;
   border-radius: 1rem;
   color: white;
@@ -95,8 +96,8 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	transform: scale(1.02);
-  background: #b395ec;
+  transform: scale(1.02);
+  background: #9058f7;
 }
 
 p {
@@ -106,9 +107,13 @@ label {
   color: white;
 }
 form p {
+  margin-top: 0.5rem;
   font-weight: 400;
   margin-bottom: 0.5rem;
 }
 form img {
   margin-bottom: 0.5rem;
+}
+.txt {
+  text-align: center;
 }

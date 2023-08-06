@@ -296,6 +296,7 @@ h2 {
   border: none;
   color: white;
   outline-color: aliceblue;
+  border-radius: 1rem;
   padding: 10px 20px;
 }
 input[type="submit"] {
@@ -310,6 +311,7 @@ input[type="submit"] {
 }
 
 .form-input textarea {
+  border-radius: 1rem;
   background-color: rgba(255, 255, 255, 0.1);
   outline: none;
   border: none;

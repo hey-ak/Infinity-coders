@@ -242,10 +242,11 @@ p {
   border: none;
   margin-left: 330px;
   margin-top: 2rem;
-  transition: 0.1s ease;
+  transition: 0.3s all ease;
 }
 #about-button:hover {
-  transform: scale(1.1);
+  background: #9058f7;
+  transform: scale(1.02);
   cursor: pointer;
 }
 /* #about-img {

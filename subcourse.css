@@ -116,7 +116,6 @@ nav {
 }
 
 .course-description a {
-
   margin-bottom: 1rem;
   transition: 0.3s all ease;
   text-align: center;
@@ -130,7 +129,8 @@ nav {
   text-decoration: none;
 }
 .course-description a:hover {
-  transform: scale(1.1);
+  background-color: #9058f7;
+  transform: scale(1.02);
 }
 .course-description p {
   line-height: 1.4rem;
@@ -179,7 +179,7 @@ h2 {
 }
 
 .chapters:hover {
-  background-color:  #8144f2;;
+  background-color:  #9058f7;;
   cursor: pointer;
 }
 b {

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "College Project",
+			"path": "."
+		},
+		{
+			"name": "image",
+			"path": "../../Downloads/gatewayp/gatewayp/image"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "College Project"
+	}
+}

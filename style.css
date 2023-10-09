@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #917fb3;
+  background-color: #9243bc;
 }
 body {
   overflow-y: scroll;
@@ -266,4 +266,3 @@ main {
   bottom: 0px;
   /* left: 50%; */
 }
-

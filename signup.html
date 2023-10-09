@@ -1,48 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./signup.css" />
     <title>Signup</title>
-  </head>
-  <body>
-    <div class="login-container">
-      <h2>Signup</h2>
-      <div class="container">
-        <form
-        action="./index.html" 
-        >
-          <p>Welcome</p>
-          <input type="email" placeholder="Email" /><br />
-          <input type="number" placeholder="Phone" /><br />
-          <input type="password" placeholder="Password" /><br />
-          <input type="submit" value="Create Account"  /><br />
-          <!-- <a id="Forgot" href="#">Forgot Password?</a>
-          <br />
-          <a id="signup" href="./signup.html">Create Your Account</a> -->
-        </form>
+</head>
 
-        <div class="drops">
-          <div class="drop drop-1"></div>
-          <div class="drop drop-2"></div>
-          <div class="drop drop-3"></div>
-          <div class="drop drop-4"></div>
-          <div class="drop drop-5"></div>
+<body>
+    <div class="login-container">
+        <h2>Signup</h2>
+        <div class="container">
+            <form id="signupForm" action="./index.html">
+                <p>Welcome</p>
+                <input type="email" id="email" placeholder="Email" required /><br />
+                <input type="number" id="phone" placeholder="Phone" required /><br />
+                <input type="password" id="password" placeholder="Password" required /><br />
+                <input type="submit" value="Create Account" /><br />
+                <!-- <a id="Forgot" href="#">Forgot Password?</a>
+                <br />
+                <a id="signup" href="./signup.html">Create Your Account</a> -->
+            </form>
+
+            <div class="drops">
+                <div class="drop drop-1"></div>
+                <div class="drop drop-2"></div>
+                <div class="drop drop-3"></div>
+                <div class="drop drop-4"></div>
+                <div class="drop drop-5"></div>
+            </div>
         </div>
-      </div>
     </div>
     <div class="ripple-background">
-      <div class="circle xxlarge shade1"></div>
-      <div class="circle xlarge shade2"></div>
-      <div class="circle large shade3"></div>
-      <div class="circle mediun shade4"></div>
-      <div class="circle small shade5"></div>
+        <div class="circle xxlarge shade1"></div>
+        <div class="circle xlarge shade2"></div>
+        <div class="circle large shade3"></div>
+        <div class="circle mediun shade4"></div>
+        <div class="circle small shade5"></div>
     </div>
-  </body>
+
+    <!-- Include JavaScript validation script -->
+    <script src="./signup.js"></script>
+</body>
+
 </html>

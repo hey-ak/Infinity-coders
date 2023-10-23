@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add to Cart</title>
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <link rel="stylesheet" href="./Addtocart.css" />
+  </head>
+  <body>
+    <header>
+      <img src="pngwing.com.png" alt="infinite" id="nav-logo" />
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./course.html">Courses</a></li>
+          <li><a href="./contactus.html">Contact</a></li>
+        </ul>
+        <button class="nav-button"><a href="./logn.html">Login</a></button>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="wrap cf">
+        <h1 class="projTitle">MY Cart</h1>
+        <div class="heading cf">
+          <h1>Courses</h1>
+          <a href="#" class="continue">Continue Purchasing</a>
+        </div>
+        <div class="cart">
+          <ul class="cartWrap">
+            <li class="items odd">
+              <div class="infoWrap">
+                <div class="cartSection">
+                  <img
+                    src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg"
+                    alt=""
+                    class="itemImg"
+                  />
+                  <p class="itemNumber">#QUE-007544-002</p>
+                  <h3>Html Course</h3>
+                  <p data-price="1999">
+                    <input
+                      type="text"
+                      class="qty"
+                      placeholder=""
+                      id="HTML-qty"
+                    />
+                    x &#x20B9;<span class="itemPrice">1999</span>
+                  </p>
+                  <p class="stockStatus">In Stock</p>
+                </div>
+                <div class="prodTotal cartSection">
+                  <p>&#x20B9;1999</p>
+                </div>
+                <div class="cartSection removeWrap">
+                  <a href="#" class="remove">x</a>
+                </div>
+              </div>
+            </li>
+            <li class="items even">
+              <div class="infoWrap">
+                <div class="cartSection">
+                  <img
+                    src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg"
+                    alt=""
+                    class="itemImg"
+                  />
+                  <p class="itemNumber">#QUE-007544-002</p>
+                  <h3>Css Course</h3>
+                  <p data-price="2999">
+                    <input type="text" class="qty" placeholder="" /> x
+                    &#x20B9;<span class="itemPrice">2999</span>
+                  </p>
+                  <p class="stockStatus">In Stock</p>
+                </div>
+                <div class="prodTotal cartSection">
+                  <p>&#x20B9;2999</p>
+                </div>
+                <div class="cartSection removeWrap">
+                  <a href="#" class="remove">x</a>
+                </div>
+              </div>
+            </li>
+            <li class="items odd">
+              <div class="infoWrap">
+                <div class="cartSection">
+                  <img
+                    src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg"
+                    alt=""
+                    class="itemImg"
+                  />
+                  <p class="itemNumber">#QUE-007544-002</p>
+                  <h3>Java Course</h3>
+                  <p data-price="3999">
+                    <input type="text" class="qty" placeholder="" /> x
+                    &#x20B9;<span class="itemPrice">3999</span>
+                  </p>
+                  <p class="stockStatus out">Out of Stock</p>
+                </div>
+                <div class="prodTotal cartSection">
+                  <p>&#x20B9;3999</p>
+                </div>
+                <div class="cartSection removeWrap">
+                  <a href="#" class="remove">x</a>
+                </div>
+              </div>
+            </li>
+            <li class="items even">
+              <div class="infoWrap">
+                <div class="cartSection info">
+                  <img
+                    src="http://lorempixel.com/output/technics-q-c-300-300-4.jpg"
+                    alt=""
+                    class="itemImg"
+                  />
+                  <p class="itemNumber">#QUE-007544-002</p>
+
+                  <h3>React Course</h3>
+                  <p data-price="4999">
+                    <!-- For the HTML Course, as an example -->
+                    <input type="text" class="qty" placeholder="" />x
+                    &#x20B9;<span class="itemPrice">4999</span>
+                  </p>
+                  <p class="stockStatus">In Stock</p>
+                </div>
+                <div class="prodTotal cartSection">
+                  <p>&#x20B9;4999</p>
+                </div>
+                <div class="cartSection removeWrap">
+                  <a href="#" class="remove">x</a>
+                </div>
+              </div>
+              <div class="special">
+                <div class="specialContent">
+                  Free gift with purchase!, gift wrap, etc!!
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="promoCode">
+          <label for="promo">Have A Promo Code?</label>
+          <input type="text" id="promo" name="promo" placeholder="Enter Code" />
+          <a href="#" class="btn applyPromo">Apply</a>
+        </div>
+
+        <div class="subtotal cf">
+          <ul>
+            <li class="totalRow">
+              <span class="label">Subtotal</span
+              ><span class="value"> &#x20B9;18000</span>
+            </li>
+            <li class="totalRow">
+              <span class="label">Shipping</span
+              ><span class="value">&#x20B9;200</span>
+            </li>
+            <li class="totalRow">
+              <span class="label">Tax</span
+              ><span class="value">&#x20B9;180</span>
+            </li>
+            <li class="totalRow final">
+              <span class="label">Total</span
+              ><span class="value">&#x20B9;20000</span>
+            </li>
+            <li class="totalRow">
+              <a href="#" class="btn continue">Checkout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="HTML-count"></div>
+      <div id="CSS-count"></div>
+      <div id="Java-count"></div>
+      <div id="React-count"></div>
+    </div>
+    <p id="Html Course-quantity">0</p>
+    <script src="./Addtocart.js"></script>
+  </body>
+</html>

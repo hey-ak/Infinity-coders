@@ -18,6 +18,7 @@ header {
   background: rgba(255, 255, 255, 0.2);
   max-width: 800px;
   min-height: 500px;
+  color: white;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   justify-content: space-between;
@@ -79,6 +80,9 @@ select option {
 #zip p {
   margin-bottom: 0.5rem;
 }
+input {
+  color: white !important;
+}
 input::placeholder {
   color: white;
 }
@@ -116,4 +120,11 @@ form img {
 }
 .txt {
   text-align: center;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  color: white !important;
 }

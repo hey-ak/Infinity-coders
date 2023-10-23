@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
     <link rel="stylesheet" href="./contactus.css" />
-    <!-- <link rel="stylesheet" href="./footer.css" /> -->
   </head>
   <body>
     <div class="background-img"></div>
@@ -21,54 +20,35 @@
         <button class="nav-button"><a href="./logn.html">Login</a></button>
       </nav>
     </header>
-    <!-- <div class="ripple-background">
-      <div class="circle xxlarge shade1"></div>
-      <div class="circle xlarge shade2"></div>
-      <div class="circle large shade3"></div>
-      <div class="circle mediun shade4"></div>
-      <div class="circle small shade5"></div>
-    </div> -->
+
     <main class="contact-container">
       <div class="form-container">
         <h1>Contact Us</h1>
         <div class="contact-form">
-          <form>
+          <form id="contactForm" method="post" action="submitFormUrlHere"> <!-- You might want to replace 'submitFormUrlHere' with your form processing URL -->
             <div class="form-input">
               <label for="fullname">Full Name:</label>
-              <input
-                type="text"
-                name="fullname"
-                placeholder="Enter Name Here"
-              />
+              <input type="text" id="fullname" name="fullname" placeholder="Enter Name Here" required />
             </div>
             <div class="form-input">
               <label for="Phone">Phone:</label>
-              <input
-                type="number"
-                name="Phone"
-                placeholder="Enter Mobile Number"
-              />
+              <input type="number" id="Phone" name="Phone" placeholder="Enter Mobile Number" required />
             </div>
             <div class="form-input">
               <label for="email">Email:</label>
-              <input
-                type="email"
-                class="contact-input input-name"
-                name="email"
-                placeholder="Enter Email Here"
-              />
+              <input type="email" id="email" class="contact-input input-name" name="email" placeholder="Enter Email Here" required />
             </div>
             <div class="form-input">
               <label for="message">Message:</label>
-              <textarea name="message" id="" cols="30" rows="10"></textarea>
+              <textarea id="message" name="message" cols="30" rows="10" required></textarea>
             </div>
-            <input type="submit" />
+            <input type="submit" value="Submit" />
           </form>
         </div>
       </div>
+
       <div class="team-container">
         <h1>Our Team</h1>
-
         <div class="row">
           <div class="card" style="--bc: #8e9792; --btn: #8e9792">
             <img src="./pngwing.com (1).png" />
@@ -94,5 +74,7 @@
         </div>
       </div>
     </main>
+
+    <script src="./contactValidation.js"></script>
   </body>
 </html>

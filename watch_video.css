@@ -1,0 +1,117 @@
+/* Basic Reset */
+body,
+h1,
+p,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8fa;
+  color: white;
+}
+
+header {
+  background-color: #9243bc;
+  padding: 1rem 2rem;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 20px; /* Spacing between nav items */
+}
+
+nav a,
+.breadcrumbs a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+nav a:hover,
+.breadcrumbs a:hover {
+  color: #007bff; /* You can choose your primary color */
+}
+
+.filter-container {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-container select {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.breadcrumbs {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.breadcrumbs span {
+  margin: 0 0.3rem;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.video-item {
+  color: black;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.video-item:hover {
+  transform: translateY(-5px);
+}
+
+.video-thumbnail {
+  width: 100%;
+  display: block;
+}
+
+.video-description {
+  margin: 10px;
+  text-align: center;
+  font-size: 0.9em;
+  background-color: #f7f7f7;
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+iframe {
+  width: 100%;
+  height: 150px;
+}
+
+.feedback {
+  text-align: center;
+  margin: 10px;
+}
+
+.thumbs-up,
+.thumbs-down {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}

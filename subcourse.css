@@ -10,7 +10,7 @@ body {
   overflow: hidden;
   height: 100%;
   width: 100%;
-  background-color: #9243bc;
+  background-color: #2f3e56;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -21,10 +21,10 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #917fb3;
+  background: #2f3e56;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #9e72f1;
+  background: #2f3e56;
 }
 
 /* body {
@@ -121,7 +121,7 @@ nav {
   text-align: center;
   border-radius: 1rem;
   padding: 1rem;
-  background-color: #9243bc;
+  background-color: #2f3e56;
   color: white;
   margin-top: 1rem;
   width: 150px;
@@ -129,7 +129,7 @@ nav {
   text-decoration: none;
 }
 .course-description a:hover {
-  background-color: #9058f7;
+  background-color: #2f3e56;
   transform: scale(1.02);
 }
 .course-description p {
@@ -181,7 +181,7 @@ h2 {
 }
 
 .chapters:hover {
-  background-color: #9058f7;
+  background-color: #2f3e56;
   cursor: pointer;
 }
 b {

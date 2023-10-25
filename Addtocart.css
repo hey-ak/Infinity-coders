@@ -23,10 +23,6 @@ img {
   clear: both;
 }
 
-.cf {
-  *zoom: 1;
-}
-
 .wrap {
   width: 75%;
   max-width: 960px;
@@ -72,7 +68,7 @@ img {
   font-size: 0.75em;
   padding: 1em;
   color: #fff;
-  background: #9243bc;
+  background: #2f3e56;
   font-weight: bold;
   border-radius: 50px;
   float: right;
@@ -93,7 +89,7 @@ img {
 .heading a.continue:hover,
 .heading a.continue:focus,
 .heading a.continue:active {
-  background: #c361f8;
+  background: #184690;
 }
 
 .heading a.continue:hover:after,
@@ -181,7 +177,7 @@ img {
 }
 
 .cart .items .infoWrap .cartSection p.stockStatus.out {
-  color: #9243bc;
+  color: #2f3e56;
 }
 
 .cart .items .infoWrap .cartSection .itemImg {
@@ -307,7 +303,7 @@ a.remove:hover {
   font-size: 1em;
   padding: 1em 3em;
   color: #fff;
-  background: #9243bc;
+  background: #2f3e56;
   font-weight: bold;
   border-radius: 50px;
   float: right;
@@ -328,7 +324,7 @@ a.remove:hover {
 .btn:hover,
 .btn:focus,
 .btn:active {
-  background: #c361f8;
+  background: #184690;
 }
 
 .btn:hover:after,
@@ -463,7 +459,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #9243bc;
+  background-color: #2f3e56;
   padding: 0 0.75rem;
 }
 nav ul {

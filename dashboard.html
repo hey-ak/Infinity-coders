@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dashboard.css" />
+    <title>Student Dashboard</title>
+  </head>
+  <body>
+    <div id="dashboard">
+      <!-- Sidebar -->
+      <aside>
+        <div class="profile-overview">
+          <img src="./profile1.png" alt="Profile Picture" class="profile-pic" />
+          <h2>Akshay</h2>
+          <p>Member since Jan 2023</p>
+        </div>
+        <nav>
+          <ul>
+            <li class="active"><a href="#">My Courses</a></li>
+            <li><a href="#">Wishlist</a></li>
+            <li><a href="#">Purchased History</a></li>
+            <li><a href="#">Notifications</a></li>
+            <li><a href="#">Account Settings</a></li>
+          </ul>
+        </nav>
+      </aside>
+
+      <!-- Main content -->
+      <main>
+        <!-- My Courses Section -->
+        <section id="my-courses">
+          <h3>My Courses</h3>
+          <div class="course-card">
+            <img
+              src="./app-development.png"
+              alt="Course Thumbnail"
+              class="course-thumb"
+            />
+            <div class="course-details">
+              <h4>Html Course</h4>
+              <progress value="70" max="100"></progress>
+              <span>70% Complete</span>
+            </div>
+          </div>
+          <div class="course-card">
+            <img src="react.png" alt="Course Thumbnail" class="course-thumb" />
+            <div class="course-details">
+              <h4>React Course</h4>
+              <progress value="45" max="100"></progress>
+              <span>45% Complete</span>
+            </div>
+          </div>
+          <div class="course-card">
+            <img
+              src="node-js.png"
+              alt="Course Thumbnail"
+              class="course-thumb"
+            />
+            <div class="course-details">
+              <h4>Node Js Course</h4>
+              <progress value="65" max="100"></progress>
+              <span>65% Complete</span>
+            </div>
+          </div>
+        </section>
+
+        <!-- Notifications -->
+        <section id="notifications">
+          <h3>Recent Notifications</h3>
+          <ul>
+            <li><strong>JavaScript Course</strong> New Lecture added!</li>
+            <br />
+            <li><strong>Bootstrap Course:</strong> Questions Added</li>
+            <br />
+            <li>Flash Sale: 30% off on select courses till Sunday!</li>
+            <br />
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #9243bc;
+  background-color: #2f3e56;
 }
 body {
   overflow-y: scroll;
@@ -238,14 +238,14 @@ p {
   border-radius: 5px;
   color: white;
   font-weight: 500;
-  background-color: #9243bc;
+  background-color: #2f3e56;
   border: none;
   margin-left: 330px;
   margin-top: 2rem;
   transition: 0.3s all ease;
 }
 #about-button:hover {
-  background: #9058f7;
+  background:  #184690;;
   transform: scale(1.02);
   cursor: pointer;
 }

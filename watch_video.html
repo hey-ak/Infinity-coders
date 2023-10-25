@@ -1,56 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watch Video Page</title>
-    <link rel="stylesheet" href="watch_video.css">
-</head>
-<body>
+    <link rel="stylesheet" href="watch_video.css" />
+  </head>
+  <body>
     <!-- Sticky Header -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="course.html">Main Course</a></li>
-                <!-- ... other links ... -->
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="course.html">Course</a></li>
+          <!-- ... other links ... -->
+        </ul>
+      </nav>
 
-        <div class="course-container">
-            <label for="course-category">Select Course:</label>
-            <select id="course-category">
-                <option value="HTML">HTML</option>
-                <option value="CSS">CSS</option>
-                <option value="JavaScript">JavaScript</option>
-                <option value="React">React</option>
-                <option value="Bootstrap">Bootstrap</option>
-                <option value="NodeJS">NodeJS</option>
-                <!-- ... other courses ... -->
-            </select>
-        </div>
+      <div class="course-container">
+        <label for="course-category">Select Course:</label>
+        <select id="course-category">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="React">React</option>
+          <option value="Bootstrap">Bootstrap</option>
+          <option value="NodeJS">NodeJS</option>
+          <!-- ... other courses ... -->
+        </select>
+      </div>
 
-        <div class="filter-container">
-            <label for="video-category">Filter Videos:</label>
-            <select id="video-category">
-                <option value="all">All</option>
-                <option value="beginner">Beginner</option>
-                <option value="advanced">Advanced</option>
-                <!-- ... other categories ... -->
-            </select>
-        </div>
+      <div class="filter-container">
+        <label for="video-category">Filter Videos:</label>
+        <select id="video-category">
+          <option value="all">All</option>
+          <option value="beginner">Beginner</option>
+          <option value="advanced">Advanced</option>
+          <!-- ... other categories ... -->
+        </select>
+      </div>
 
-        <div class="breadcrumbs">
-            <span><a href="index.html">Home</a></span> /
-            <span id="course-breadcrumb"><a href="subcourses.html">Course</a></span>
-        </div>
+      <div class="breadcrumbs">
+        <span><a href="index.html">Home</a></span> /
+        <span id="course-breadcrumb"><a href="subcourses.html">Course</a></span>
+      </div>
     </header>
 
     <!-- Main Video Grid -->
     <main>
-        <div id="video-grid" class="video-grid"></div>
+      <div id="video-grid" class="video-grid"></div>
     </main>
 
     <script src="./watch_video.js"></script>
-</body>
+  </body>
 </html>

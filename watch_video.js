@@ -8,7 +8,7 @@ const courses = {
         },
         {
             title: "Introduction",
-            description: "Introductory tutorial on HTML.",
+            description: "Starting With Html.",
             videoId: "YOUR_HTML_VIDEO_ID_2",
             category: "beginner"
         },
@@ -96,7 +96,6 @@ function loadVideos(courseName) {
     
     // Clear existing videos
     videoGrid.innerHTML = "";
-
     courses[courseName].forEach(video => {
         const videoItem = document.createElement("div");
         videoItem.classList.add("video-item");
